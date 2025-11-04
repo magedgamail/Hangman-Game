@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Hangman Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game-info">
+            <div class="game-name">Hangman</div>
+            <div class="categoery">
+                WordFrom: <span></span>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="Hangman-draw">
+                <div class="the-draw">
+                    <div class="the-stands"></div>
+                    <div class="the-hang"></div>
+                    <div class="the-rope"></div>
+                    <div class="the-man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="letters"></div>
+        </div>
+        <hr>
+        <div class="letters-guess"></div>
+    </div>
+    <audio src="sounds/mixkit-achievement-bell-600.wav" id="success" preload="auto"></audio>
+    <audio src="sounds/mixkit-losing-piano-2024.wav" id="fail" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
